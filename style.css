@@ -1,32 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
 *{
     padding: 0;
     margin: 0;
-}
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
 body{
     background-color: #B8B6B6;
 }
 .main-card{
 
-    width: 400px;
-    height: 500px;
+    width: 300px;
+    height: 350px;
     background-color: #42515A ;
     margin: 150px auto ;
     border-radius: 20px;
     padding-top: 5px;
 }
 .image-header{
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
     background-color: white;
-    border:8px solid #C74385;
+    border:10px solid #C74385;
     border-radius: 50%;
     margin: -90px auto 0;
-    padding: 15px;
+    padding: 13px;
 }
 .image-header img{
-    width: 165px;
-    height: 165px;
-    margin: 0 auto;
+    width: 122px;
+    height: 122px;
+    margin: -10px;
     border-radius: 50%;
-    
+}
+.details{
+margin-top: 20px;
+}
+.details h2{
+    color: #C74385;
+    padding-bottom: 10px;
+}
+p, h3{
+    color: white;
+    padding-bottom: 10px;
+}
+.social-media{
+    margin-top: 30px;
+}
+.social-media div{
+    width: 50px;
+    height: 50px;
+    background-color: #C74385;
+    display: inline-block;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.social-media div img{
+    margin-top: 9px;
+    width: 30px;
+    height: 30px;
+}
+.footer{
+    width: 100%;
+    height: 70px;
+    background-color: #C74385;
+    margin-top: 47px;
+    border-radius: 0 0 20px 20px;
+}
+.footer center p{
+    padding-top: 20px;
+    font-size: small;
 }
