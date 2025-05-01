@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #B8B6B6;
+}
+.main-card{
+
+    width: 400px;
+    height: 500px;
+    background-color: #42515A ;
+    margin: 150px auto ;
+    border-radius: 20px;
+    padding-top: 5px;
+}
+.image-header{
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    border:8px solid #C74385;
+    border-radius: 50%;
+    margin: -90px auto 0;
+    padding: 15px;
+}
+.image-header img{
+    width: 165px;
+    height: 165px;
+    margin: 0 auto;
+    border-radius: 50%;
+    
+}
